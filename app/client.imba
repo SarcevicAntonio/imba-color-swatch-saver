@@ -26,5 +26,7 @@ tag app
 			<p> "Click the color while pressing Alt/Option to delete the color from the grid."
 		<color-grid @colorDeleted=handleColorDeleted colors=colors>
 		<color-adder @colorAdded=handleColorAdded>
+		<footer [mx:auto w:fit-content ta:center pt:15]>
+			<a href="https://github.com/SarcevicAntonio/imba-color-swatch-saver"> "Visit on GitHub"
 
 imba.mount <app>
